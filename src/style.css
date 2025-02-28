@@ -1,18 +1,58 @@
-* {
-    padding: 0;
+
+
+body {
+    font-family: sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-:root {
-    --corBackgroundPrincipal: #F3E5D8;
-    --corBackgroundSecundaria: #FFFFFF;
-    --corFonteH3: #955B73;
-    --corFundoIngredientes: #FFF7FC;
-
-    --fonteH1: 'Playfair Display', serif;
-    --fonteH3: 'Roboto', sans-serif;
-    --fonteTextos: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.container {
+    width: 80%;
+    margin: 40px auto;
+    /* Aumentado para mais espaço em cima e embaixo */
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
+.content {
+    padding: 30px;
+}
 
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h1, h2, p {
+    margin-left: 20px;
+}
+
+.preparation, .ingredients, .nutrition {
+    margin-bottom: 30px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
