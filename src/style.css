@@ -1,58 +1,129 @@
-
-
-body {
-    font-family: sans-serif;
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f3e5d8;
+    color: #333;
+    min-height: 100vh;
 }
 
 .container {
-    width: 80%;
+    background: #fff;
+    max-width: 600px;
     margin: 40px auto;
-    /* Aumentado para mais espaço em cima e embaixo */
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+    padding: 32px 32px 16px 32px;
 }
 
 header img {
     width: 100%;
-    height: auto;
-    display: block;
+    border-radius: 12px;
+    margin-bottom: 24px;
 }
 
-.content {
-    padding: 30px;
+main h1 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    color: #7c4c24;
 }
 
-h1, h2 {
-    color: #333;
-    margin-bottom: 15px;
+main p {
+    margin-bottom: 24px;
+    color: #5f574e;
 }
 
-h1, h2, p {
-    margin-left: 20px;
+.preparation {
+    background: #fff7fc;
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
 }
 
-.preparation, .ingredients, .nutrition {
-    margin-bottom: 30px;
+.preparation h2 {
+    color: #a52a6c;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
-ul, ol {
-    padding-left: 20px;
-    margin-bottom: 20px;
+.preparation ul {
+    list-style: inside disc;
+    color: #5f574e;
 }
 
-table {
+.ingredients,
+.instructions,
+.nutrition {
+    margin-bottom: 24px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    color: #7c4c24;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.ingredients ul {
+    list-style: inside square;
+    color: #5f574e;
+    margin-left: 10px;
+}
+
+.instructions ol {
+    margin-left: 18px;
+    color: #5f574e;
+}
+
+.instructions li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.nutrition table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin-top: 12px;
 }
 
-table, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+.nutrition td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nutrition td:first-child {
+    color: #5f574e;
+}
+
+.nutrition td:last-child {
+    color: #7c4c24;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 24px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 0.95rem;
+    color: #b7a99a;
+}
+
+footer a {
+    color: #a52a6c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
