@@ -1,7 +1,5 @@
 # Landing Page - Receita de Omelete Simples
 
-![Preview da Landing Page]()
-
 ## Sobre o Projeto
 
 Esta landing page foi desenvolvida como parte de um desafio de front-end, com o objetivo de praticar e aprimorar habilidades em HTML e CSS. O projeto apresenta uma receita de omelete simples, com um layout responsivo e visual agradável, inspirado em designs modernos.
