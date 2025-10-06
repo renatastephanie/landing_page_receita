@@ -34,7 +34,7 @@ A imagem principal da receita deve ter, preferencialmente, 600x300px para melhor
 
 ## Projeto
 
-Para acessar o projeto [Clique Aqui(https://landing-page-receita-wrg6.vercel.app/)]
+Para acessar o projeto [Clique Aqui](https://landing-page-receita-wrg6.vercel.app/)
 
 ## Créditos
 
