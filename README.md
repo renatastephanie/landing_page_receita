@@ -32,6 +32,10 @@ Esta landing page foi desenvolvida como parte de um desafio de front-end, com o 
 
 A imagem principal da receita deve ter, preferencialmente, 600x300px para melhor visualização no layout.
 
+## Projeto
+
+Para acessar o projeto [Clique Aqui(https://landing-page-receita-wrg6.vercel.app/)]
+
 ## Créditos
 
 Desafio proposto por [Frontend Mentor](https://www.frontendmentor.io/).  
